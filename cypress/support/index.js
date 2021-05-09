@@ -11,6 +11,7 @@
  * @author João Dias <joao.dias@feedzai.com>
  * @since 1.0.0
  */
+require("@cypress/snapshot").register();
+
 import "@cypress/code-coverage/support";
-import "cypress-plugin-tab";
-import "@testing-library/cypress/add-commands";
+import "./commands";
